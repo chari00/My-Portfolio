@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  background-color: lightgray;
 }
 
 body {
@@ -13,15 +14,38 @@ header {
   background-color: rgb(15, 221, 152);
 }
 
+nav ul li {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
+          
+}
+
+.hero-banner {
+  height: 300px;
+  
+  margin: 10px;
+  background-image: url("../images/02-hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.subtitle {
+  background-color: aquamarine;
+  align-content: flex-end;
+  border: dashed;
+}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  margin: 0;
+  margin: 20px;
 }
 
 p {
-  margin: 0;
+  margin: 10px;
 }
