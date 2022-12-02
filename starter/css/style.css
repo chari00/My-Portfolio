@@ -9,6 +9,10 @@ body {
   line-height: 1.5;
 }
 
+header {
+  background-color: rgb(15, 221, 152);
+}
+
 h1,
 h2,
 h3,
