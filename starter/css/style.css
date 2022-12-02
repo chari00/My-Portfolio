@@ -45,20 +45,19 @@ li a {
 
 }
 #work {
-  height: 50px;
-  margin: 10px;
-  /* display: grid; */
-  /* grid-template-columns: 30em 30em 30em; */
-  /* grid-template-rows:2fr 1fr 1fr; */
-  background-size: cover;
-  background-position: center;
+  margin: 20px;
+  grid-template-columns: 20em 80em;
+  grid-template-rows: 1fr;
+  /* background-size: cover; */
+  /* background-position: center; */
 
 }
+
 
 .page-section-img {
   margin: 0px 5%;
   display: grid;
-  grid-template-rows: 100px 100px;
+  grid-template-rows: 30px 100px;
   grid-template-columns: 1fr 1fr;
   /* grid-template-areas: 
   "surf surf"
@@ -86,27 +85,27 @@ li a {
   margin: 10px;
   padding: 100px; */
 
-    /* background-image: url("../images/02-portfolio-1.jpg"); */
+    background-image: url("../images/02-portfolio-1.jpg");
 }
 
 #calculator {
   grid-area: calc;
-  /* background-image: url("../images/02-portfolio-2.jpg"); */
+  background-image: url("../images/02-portfolio-2.jpg");
 }
 
 #puzzels {
   grid-area: puzzels;
-  /* background-image: url("../images/02-portfolio-3.jpg"); */
+  background-image: url("../images/02-portfolio-3.jpg");
 }
 
 #surf {
   grid-area: surf;
-  /* background-image: url("../images/02-portfolio-4.jpg"); */
+  background-image: url("../images/02-portfolio-4.jpg");
 }
 
 #run {
   grid-area: run;
-  /* background-image: url("../images/02-run-buddy.jpg"); */
+  background-image: url("../images/02-run-buddy.jpg");
 }
 
 .subtitle {
@@ -128,6 +127,9 @@ h6 {
   color: black;
 }
 
+#contact a {
+  margin: 50px;
+}
 
 
 p {
