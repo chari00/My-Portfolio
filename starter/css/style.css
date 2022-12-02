@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
   background-color: lightgray;
+  margin: 10px;
+ 
 }
 
 body {
@@ -17,11 +19,15 @@ header {
 nav ul li {
   background-color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
-  flex-direction: row;
+  /* flex-direction: row; */
   display: inline-block;
+  color: aquamarine;
   
           
+}
+li a {
+  color: aquamarine;
+  background-color: black;
 }
 
 .hero-banner {
@@ -33,26 +39,31 @@ nav ul li {
 
 }
 
+
+.container {
+  grid-area: 100%;
+
+}
 #work {
-  height: 300px;
+  height: 50px;
   margin: 10px;
-  display: grid;
-  grid-template-columns: 30em 30em 30em;
-  grid-template-rows:2fr 1fr 1fr;
+  /* display: grid; */
+  /* grid-template-columns: 30em 30em 30em; */
+  /* grid-template-rows:2fr 1fr 1fr; */
   background-size: cover;
   background-position: center;
 
 }
 
-.page-section {
+.page-section-img {
   margin: 0px 5%;
   display: grid;
-  grid-template-rows: 100px 100px 100px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: 
+  grid-template-rows: 100px 100px;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-areas: 
   "surf surf"
   "led calc"
-  "puzzels run";
+  "puzzels run"; */
 }
 
 .grid-template-areas {
@@ -63,11 +74,19 @@ nav ul li {
   cursor: pointer;
   display: grid;
   align-content: end;
-
+  /* grid-template-areas: 
+  "surf surf"
+  "led calc"
+  "puzzels run"; */
 }
 #led-lights {
+  
   grid-area: led;
-  /* background-image: url("../images/02-portfolio-1.jpg"); */
+  /* height: 3px;
+  margin: 10px;
+  padding: 100px; */
+
+    /* background-image: url("../images/02-portfolio-1.jpg"); */
 }
 
 #calculator {
@@ -95,9 +114,9 @@ nav ul li {
   align-content: flex-end;
   border: dashed;
   text-align: center;
-  border-bottom: 2px solid black;
   width: 300px;
-  margin: 50px auto;
+  margin: 5px auto;
+  padding: 5px;
 }
 h1,
 h2,
@@ -106,7 +125,10 @@ h4,
 h5,
 h6 {
   margin: 20px;
+  color: black;
 }
+
+
 
 p {
   margin: 10px;
