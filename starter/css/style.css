@@ -6,15 +6,15 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
 
 header {
-margin: 10px;
-padding: 10px;
+margin: 5px;
+padding: 2px;
 
 
 }
@@ -25,21 +25,81 @@ h1 {
 
 }
 
-.hero-banner {
+/* .hero-banner {
   background-position: center;
   background-size: cover;
-  height: 270px;
-  margin: 10px;
+  height: 300px;
+  margin: 0px;
   background-image: url("../images/02-hero-bg.jpg");
-}
+} */
 
 ul {
-  margin: 0;
-  padding: 0;
-  border: 1px dotted red;
+  margin: 0px;
+  padding: 0px;
+  border: 5px dotted red;
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
   background-color: black;
   
   }
+
+  .heroGridArea {
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    align-items:flex-end;
+    display: flex;
+    position: relative;
+    justify-content: end;
+  }
+  
+  .hero-banner {
+    /* margin: 0px 0%; */
+    display: grid;
+    min-height: 100px;
+    /* height: 70vh; */
+    /* grid-template-rows: 150%; */
+    /* grid-template-columns: 100%; */
+    grid-template-areas:
+    "featuredProduct featuredProduct "
+    /* "featuredProduct CTA"; */
+  }
+
+  #subtitle {
+    grid-area: featuredProduct;
+    height: 300px;
+    background-image: url("../images/02-hero-bg.jpg");
+  }
+/*   
+  #secondaryProduct {
+    grid-area: secondaryProduct;
+    background-image: url("../images/furniture2.png");
+  }
+  
+  #CTA {
+    grid-area: CTA;
+    background-image: url("../images/woodbg.png");
+    justify-content: space-around;
+    cursor: pointer;
+  } */
+  
+/* typography below */
+
+h2 {
+  font-size: 60px;
+  margin: 0px 0px;
+  color: #FF6200;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0px 0px;
+}
+
+h4 {
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+}
