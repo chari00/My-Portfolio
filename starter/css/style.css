@@ -91,6 +91,7 @@ ul {
   .container {
     display: grid;
     grid-template-columns: 25% 75%;
+    grid-template-rows: 25% 25%;
   }
 
 h2 {
@@ -98,4 +99,21 @@ h2 {
   margin: 0px 0px;
   color: black;
   
+  
 }
+
+
+.page-section-image {
+  display: grid;
+  grid-template-areas: 
+  " . surf surf"
+  " . surf surf"
+  " . led calc"
+  " . puzzels run";
+
+}
+
+.grid-template-areas {
+  
+}
+
