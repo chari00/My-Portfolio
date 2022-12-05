@@ -22,7 +22,6 @@ padding: 2px;
 h1 {
   background-color: aqua;
   
-
 }
 
 /* .hero-banner {
@@ -88,20 +87,11 @@ ul {
   .coolsub {
     background-color: aquamarine;
   }
-/*   
-  #secondaryProduct {
-    grid-area: secondaryProduct;
-    background-image: url("../images/furniture2.png");
+
+  .container {
+    display: grid;
+    grid-template-columns: 25% 75%;
   }
-  
-  #CTA {
-    grid-area: CTA;
-    background-image: url("../images/woodbg.png");
-    justify-content: space-around;
-    cursor: pointer;
-  } */
-  
-/* typography below */
 
 h2 {
   font-size: 30px;
