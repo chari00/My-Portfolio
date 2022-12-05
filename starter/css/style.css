@@ -91,8 +91,10 @@ ul {
   .container {
     display: grid;
     grid-template-columns: 25% 75%;
-    grid-template-rows: 25% 25%;
   }
+.page-section-about {
+  margin: 10px;
+}
 
 h2 {
   font-size: 30px;
@@ -105,6 +107,8 @@ h2 {
 
 .page-section-image {
   display: grid;
+  margin:  0px 5%;
+
   grid-template-areas: 
   " . surf surf"
   " . surf surf"
@@ -112,8 +116,3 @@ h2 {
   " . puzzels run";
 
 }
-
-.grid-template-areas {
-  
-}
-
