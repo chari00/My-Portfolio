@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   background-color: lightgray;
-  margin: 10px;
+  margin: 5px;
 
 }
 
@@ -26,8 +26,6 @@ h1 {
 
 
 ul {
-  margin: 0px;
-  padding: 0px;
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
@@ -52,7 +50,6 @@ li {
   display: flex;
   position: relative;
   justify-content: end;
-
 
 }
 
