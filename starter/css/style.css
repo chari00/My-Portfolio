@@ -139,12 +139,12 @@ h2 {
   background-image: url("../images/02-run-buddy.jpg");
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 350px) {
   body {
     color: red;
   }
 }
-@media all and (max-width: 700px) {
+@media all and (max-width: 500px) {
 
   * {
     background-color: yellowgreen;
