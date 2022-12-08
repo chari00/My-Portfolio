@@ -28,21 +28,22 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
-```html
+```Media query
 <h1>Some HTML code I'm proud of</h1>
 ```
 
-```css
+```CSS Grid
 .proud-of-this-css {
   color: papayawhip;
 }
 ```
 
-```js
+```Flexbox
 const proudOfThisFunc = () => {
   console.log("🎉");
-};
+}
 ```
+
 
 ### Continued development
 

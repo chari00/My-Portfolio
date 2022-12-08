@@ -136,12 +136,12 @@ h2 {
   background-image: url("../images/02-run-buddy.jpg");
 }
 
-@media screen and (max-width: 35%) {
+@media screen and (max-width: 300px) {
   body {
     color: red;
   }
 }
-@media screen and (max-width: 50%) {
+@media screen and (max-width: 450px) {
 
   * {
     background-color: yellowgreen;
