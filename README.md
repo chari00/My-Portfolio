@@ -13,6 +13,18 @@ Portfolio webpage composed with the thing I have learned from Bootcamp.
 
 ## Visual
 
+### Normal view of the website.
+<img src="./images/screenshot-normalview.png" alt="screenshot of the homepage of my Portfolio"/>
+
+### Small viewport 450px background change to green.
+<img src="./images/green450px.png" alt="screenshot of the homepage of my Portfolio background change to green at 450px"/>
+
+### Small viewport 350px text change to red.
+<img src="./images/redtext350px.png" alt="screenshot of the homepage of my Portfolio text change to red at 350px"/>
+
+
+
+
 
 
 ### Built with
