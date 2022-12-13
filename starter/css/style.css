@@ -2,35 +2,30 @@
   box-sizing: border-box;
   background-color: lightgray;
   margin: 5px;
-
 }
 
 body {
   margin: 0px;
   padding: 0px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
 }
 
 header {
   margin: 5px;
   padding: 2px;
-
-
 }
 
 h1 {
-  background-color: aquamarine
-
+  background-color: aquamarine;
 }
-
 
 ul {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
   background-color: black;
-
 }
 
 li a {
@@ -42,7 +37,6 @@ li a {
 li {
   background-color: black;
   list-style: none;
-  
 }
 
 .hero-banner-grid {
@@ -54,16 +48,14 @@ li {
 }
 
 .hero-banner {
-  display: grid; 
-  grid-template-areas:
-    "hero hero "
+  display: grid;
+  grid-template-areas: "hero hero ";
 }
 
 #subtitle {
   grid-area: hero;
   height: 300px;
   background-image: url("../images/02-hero-bg.jpg");
-
 }
 
 .coolsub {
@@ -75,17 +67,18 @@ li {
   grid-template-columns: 25% 75%;
 }
 
-
-
 h2 {
   font-size: 30px;
   color: black;
   display: flex;
   justify-content: right;
-
 }
-
-
+.project-text {
+  width: 120px;
+  height: 40px;
+  margin-top: 13vh;
+  margin-left: 10px;
+}
 
 .grid-areas {
   display: grid;
@@ -96,7 +89,6 @@ h2 {
     "surf surf"
     "led calc"
     "puzzels run";
-
 }
 
 .grid-templateAreas {
@@ -108,7 +100,6 @@ h2 {
   border: 5px aquamarine solid;
   height: 150px;
 }
-
 
 #led-lights {
   grid-area: led;
@@ -136,13 +127,21 @@ h2 {
   background-image: url("../images/02-run-buddy.jpg");
 }
 
+.page-section-contact {
+  width: 400%;
+  margin-left: 250px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  text-align: end;
+}
+
 @media screen and (max-width: 300px) {
   body {
     color: red;
   }
 }
 @media screen and (max-width: 450px) {
-
   * {
     background-color: yellowgreen;
   }
